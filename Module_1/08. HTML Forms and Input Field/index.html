@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <label for="name">Name:</label>
+      <br />
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Your Name "
+        required
+      />
+      <br />
+      <label for="email">Email:</label>
+      <br />
+      <input type="email" id="email" name="email" required />
+      <br />
+      <label for="password">Password:</label>
+      <br />
+      <input type="password" id="password" name="password" required />
+      <br />
+      <label for="phone">Phone:</label>
+      <br />
+      <input type="tel" id="phone" name="phone" required />
+      <br />
+
+      <!-- take gender using radio button     -->
+      <label for="gender">Gender</label>
+      <br />
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label>
+      <br />
+      <input type="radio" id="female" name="gender" value="female" required />
+      <label for="female">Female</label>
+      <br />
+
+      <!-- cheakbox -->
+      <br />
+      <label for="hobbies">Hobbies:</label>
+      <br />
+      <input type="checkbox" id="reading" name="hobbies" value="reading" />
+      <label for="reading">Reading</label>
+      <br />
+
+      <!-- take color input -->
+      <br />
+      <input type="color" id="favcolor" name="favcolor" value="#ff0000" />
+      <br />
+      <!-- select tool for dropdown-->
+      <br />
+      <label for="country">Country:</label>
+      <br />
+      <select id="country" name="country" required>
+        <option value="bangladesh">Bangladesh</option>
+        <option value="india">India</option>
+        <option value="pakistan">Pakistan</option>
+        <option value="nepal">Nepal</option>
+      </select>
+
+      <!-- date input -->
+      <br />
+      <br />
+      <label for="dob">Date of Birth:</label>
+      <br />
+      <input type="date" id="dob" name="dob" required />
+      <br />
+
+      <!-- used to take input long text -->
+      <label for="message">Message:</label>
+      <br />
+      <textarea
+        id="message"
+        name="message"
+        rows="4"
+        cols="50"
+        required
+      ></textarea>
+      <br />
+
+      <!-- submit button -->
+      <input type="submit" value="Submit" />
+
+      <!-- input field reset button -->
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
