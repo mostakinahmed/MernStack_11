@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  color: blue;
+  font-size: 40px;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+.myClass {
+  color: red;
+  font-style: italic;
+}
+
+#myId {
+  color: black;
+}
+
+h3,
+h2,
+h4 {
+  color: rgb(16, 176, 123);
+}
+
+div section h1 {
+  color: burlywood;
+}
+
+.btn {
+  background-color: rgb(11, 234, 52);
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgb(53, 24, 158);
+  color: white;
+}
+
+.data p:first-child {
+  color: hotpink;
+  font-size: 20px;
+}
+.data p:last-child {
+  color: hotpink;
+  font-size: 20px;
+}
