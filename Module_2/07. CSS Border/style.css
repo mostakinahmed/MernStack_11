@@ -1,0 +1,10 @@
+.mid {
+  height: 20vh;
+  width: 70vh;
+  background-color: lightblue;
+  border: 20px dashed rgb(188, 40, 40);
+}
+.mid p {
+  font-size: 50px;
+  padding-left: 20px;
+}
