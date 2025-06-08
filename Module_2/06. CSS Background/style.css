@@ -1,11 +1,20 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
-body {
+/* body {
   background-image: url("image/res.png");
   background-repeat: no-repeat;
   background-position: right bottom;
   height: 100vh;
+} */
+
+.mid {
+  font-size: 3rem;
+  color: #1ae45d;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
